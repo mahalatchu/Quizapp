@@ -95,7 +95,39 @@ $data = [
     [1, "In baseball, what is the significance of a 'perfect game'?", 'Profession', 'A game where the pitcher strikes out 15 or more batters', 'A game where no player on the opposing team reaches base', 'A game where the team hits four or more home runs', 'A game with no errors made by the defensive team', 'A game where no player on the opposing team reaches base'],
     [1, 'In Formula 1, what is the term used for the aerodynamic effect that occurs when a car closely follows another car, gaining speed due to reduced air resistance?', 'Intermediate', 'Drafting', 'Slipstreaming', 'Downforce', 'Understeer', 'Slipstreaming'],
     [1, 'In rugby union, what is the maximum number of points a team can score with a try, conversion, and penalty kick in a single sequence?', 'Intermediate', '5', '7', '8', '10', '8'],
-    
+  
+    [2, "What is the powerhouse of the cell?", "Beginner", "Nucleus", 'Mitochondria', 'Ribosome', 'Golgi apparatus', 'Mitochondria'],
+    [2, 'Which planet is known as the Red Planet?', 'Beginner', 'Earth', 'Venus', 'Mars', 'Jupiter', 'Mars'],
+    [2, 'Who is known as the father of the computer?', 'Beginner', 'Alan Turing', 'Charles Babbage', 'John von Neumann', 'Bill Gates', 'Charles Babbage'],
+    [2, 'What is the chemical symbol for gold?', 'Beginner', 'Au', 'Ag', 'Pb', 'Fe', 'Au'],
+    [2, 'What does HTTP stand for?', 'Intermediate', 'HyperText Transfer Protocol', 'HyperText Transmission Protocol', 'HighText Transfer Protocol', 'HyperTransfer Text Protocol', 'HyperText Transfer Protocol'],
+    [2, 'Which planet has the most moons?', 'Intermediate', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Saturn'],
+    [2, 'What does DNA stand for?', 'Intermediate', 'Deoxyribonucleic Acid', 'Deoxyribose Acid', 'Deoxyribonitric Acid', 'Deoxyribonecule Acid', 'Deoxyribonucleic Acid'],
+    [2, "Who invented the World Wide Web?", 'Profession', 'Steve Jobs', 'Bill Gates', 'Tim Berners-Lee', 'Mark Zuckerberg', 'Tim Berners-Lee'],
+    [2, 'What is the nearest star to Earth?', 'Intermediate', 'Proxima Centauri', 'Sirius', 'Alpha Centauri', 'Betelgeuse', 'Proxima Centauri'],
+    [2, "Which gas is most abundant in the Earth's atmosphere?", 'Intermediate', 'Oxygen', 'Carbon Dioxide', 'Nitrogen', 'Hydrogen', 'Nitrogen'],
+
+    [3, "Who painted the Mona Lisa?", "Beginner", "Vincent van Gogh", 'Pablo Picasso', 'Leonardo da Vinci', 'Claude Monet', 'Leonardo da Vinci'],
+    [3, 'Which artist is known for the painting "The Starry Night"?', 'Beginner', 'Paul Cézanne', 'Edgar Degas', 'Vincent van Gogh', 'Henri Matisse', 'Vincent van Gogh'],
+    [3, 'What is the art movement associated with Salvador Dalí?', 'Beginner', 'Impressionism', 'Surrealism', 'Cubism', 'Baroque', 'Surrealism'],
+    [3, 'Which famous structure did the ancient Greeks dedicate to the goddess Athena?', 'Beginner', 'The Colosseum', 'The Pantheon', 'The Parthenon', 'The Acropolis', 'The Parthenon'],
+    [3, 'In which museum is the famous painting "The Last Supper" located?', 'Intermediate', 'The Louvre', 'The Vatican Museums', 'The Uffizi Gallery', 'Santa Maria delle Grazie', 'Santa Maria delle Grazie'],
+    [3, 'Who is known as the "Father of Modern Art"?', 'Intermediate', 'Pablo Picasso', 'Henri Matisse', 'Claude Monet', 'Paul Cézanne', 'Paul Cézanne'],
+    [3, 'Which famous composer wrote the "Fifth Symphony"?', 'Intermediate', 'Johann Sebastian Bach', ' Wolfgang Amadeus Mozart', 'Ludwig van Beethoven', 'Franz Schubert', 'Ludwig van Beethoven'],
+    [3, "What is the primary medium used in traditional Chinese painting?", 'Profession', 'Oil', 'Watercolor', 'Ink', 'Acrylic', 'Ink'],
+    [3, 'Which artist is known for his Blue and Rose Periods?', 'Intermediate', 'Paul Gauguin', 'Pablo Picasso', 'Wassily Kandinsky', 'Edvard Munch', 'Pablo Picasso'],
+    [3, 'Who composed the opera "The Magic Flute"?', 'Intermediate', 'Richard Wagner', 'Giuseppe Verdi', 'Wolfgang Amadeus Mozart', ' Giacomo Puccini', 'Wolfgang Amadeus Mozart'],
+
+    [4, "Who was the first President of the United States?", "Beginner", "Thomas Jefferson", 'John Adams', 'George Washington', 'James Madison', 'George Washington'],
+    [4, 'Which political philosophy advocates for a classless society?', 'Beginner', 'Capitalism', 'Socialism', 'Communism', 'Conservatism', 'Communism'],
+    [4, 'Who is known as the principal author of the Declaration of Independence?', 'Beginner', 'Benjamin Franklin', 'John Adams', 'Thomas Jefferson', 'Alexander Hamilton', 'Thomas Jefferson'],
+    [4, 'Which British Prime Minister declared war on Germany in 1939?', 'Beginner', 'Neville Chamberlain', 'Winston Churchill', 'Clement Attlee', 'Anthony Eden', 'Neville Chamberlain'],
+    [4, 'What does NATO stand for?', 'Intermediate', 'North American Treaty Organization', 'National Atlantic Treaty Organization', 'North Atlantic Treaty Organization', 'National Association of Treaty Organizations', 'North Atlantic Treaty Organization'],
+    [4, 'Who was the first female Prime Minister of the United Kingdom?', 'Intermediate', 'Margaret Thatcher', 'Theresa May', 'Angela Merkel', 'Golda Meir', 'Margaret Thatcher'],
+    [4, 'What political event took place on July 14, 1789?', 'Intermediate', 'The signing of the Magna Carta', 'The storming of the Bastille', 'The Declaration of Independence', 'The start of World War I', 'The storming of the Bastille'],
+    [4, "Who is known as the 'Father of the Constitution'?", 'Profession', 'George Washington', 'Benjamin Franklin', 'James Madison', 'Thomas Jefferson', 'James Madison'],
+    [4, 'Which political party did Franklin D. Roosevelt belong to?', 'Intermediate', 'Republican', 'Democratic', 'Whig', 'Federalist', 'Democratic'],
+    [4, 'What is the highest court in the United States?', 'Intermediate', 'The Court of Appeals', 'The District Court', 'The Supreme Court', 'The Circuit Court', 'The Supreme Court'],
 ];
 
 

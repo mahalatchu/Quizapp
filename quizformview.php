@@ -34,6 +34,7 @@ $quiztopicsql= "SELECT id, quiz_subject FROM quiz_topics";
 // Execute the query
 $quizsubjects = $conn->query($quiztopicsql);
 
+
 $quiz_subject_id = 1;
 if (!empty($_POST['quiz_subject_id'])) {
     $quiz_subject_id = $_POST['quiz_subject_id'];
@@ -215,6 +216,7 @@ $quizquesanswers= $conn->query($quizquestionanswersql);
             <?php } else {?>
                 <h1>Quiz Question</h1>
                 <form action="quizformview.php" method="POST">
+                <input type="hidden" name="quiz_subject_id" value="<?php echo $_SESSION['quiz_subject_id']; ?>">
                 <input type="hidden" name="csrf_token" value="<?php echo $_SESSION['csrf_token']; ?>">
                 <input type="hidden" name="question_index" value="<?php echo $_SESSION['question_index']; ?>">
                 <input type="hidden" name="score" value="<?php echo $_SESSION['score']; ?>">
